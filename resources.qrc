@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/images/flags">
+        <file>uk.png</file>
+        <file>it.png</file>
+        <file>es.png</file>
+    </qresource>
+</RCC>
