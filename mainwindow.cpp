@@ -65,7 +65,7 @@ void MainWindow::on_Inject_clicked()
     static int offsetB = ui->end->text().toInt();
     for(int i = 0; i < offsetB; i++)
         outemu[i+offsetA] = newromarray[i];
-    QString saveas = QFileDialog::getSaveFileName(this);
+    QString saveas = QFileDialog::getSaveFileName(this, "", "", "RPX (*.rpx)");
     QFile outfile(saveas);
     if(saveas!="")
     {
